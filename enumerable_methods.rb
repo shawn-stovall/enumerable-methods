@@ -94,6 +94,7 @@ module Enumerable
     return result
   end
 
+  # inject implemented using my_map
   def my_inject(first = nil, second = nil, &block)
     arr = self.to_a
     result = nil
